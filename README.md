@@ -7,9 +7,13 @@ UnityとPythonを使った、ユーザの頭を傾けて操作するゲーム
 Pythonの実行方法及び環境構築方法は以下の通りである.(anacondaで仮想環境を作り動作確認を行った)
 
 環境構築するためのコマンド(requirements.txt内のライブラリとtorch,torchvisionライブラリを入れる)
+
 python3 -m venv venv
+
 pip install -r requirements.txt 
+
 pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu117
 
 実行コマンド
+
 python demo.py  --snapshot output-model.pth --cam 0
