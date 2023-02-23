@@ -1,0 +1,11 @@
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt 
+
+codaを入れなくてはいけない
+pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu117
+
+python demo.py  --snapshot output-model.pth --cam 0
+
+
+pip install git+https://github.com/elliottzheng/face-detection.git@master
