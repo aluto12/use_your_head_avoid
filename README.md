@@ -1,7 +1,7 @@
 # Use_Your_Head_Avoid
 「Use_Your_Head_Avoid」は、UnityとPythonを使った、ユーザの頭を傾けて操作するゲームです。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Fzx3UztZvfc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Fzx3UztZvfc" frameborder="0" allowfullscreen></iframe>
 
 このゲームでは、ブロックを自分の頭を傾けることで操作します。ゲームはUnityで実装されており、Pythonでカメラの画像処理により、カメラに映った人の顔の向きを検出し、UDP通信を用いてUnityに送信します。このゲームを動作させる前には、Pythonのプログラム(head_pose_estimationフォルダ参照)を動作させる必要があります。また、プログラムを動作させるには、カメラへの接続が必要です。
 Pythonの実行方法及び環境構築方法は以下の通りである.(anacondaで仮想環境を作り動作確認を行った)
